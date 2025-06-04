@@ -376,6 +376,7 @@ _Pvt_Extensions
 # Paket dependency manager
 .paket/paket.exe
 paket-files/
+*.exe
 
 # FAKE - F# Make
 .fake/
