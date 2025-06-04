@@ -16,5 +16,7 @@ namespace PandaModTools
         {
             InitializeComponent();
         }
+        
+        // functions for the window components
     }
 }

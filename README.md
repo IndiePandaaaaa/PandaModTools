@@ -4,9 +4,12 @@ PandaModTools is a local running client (based on .NET-FrameWork and Windows For
 
 ## table of contents
 
+- [How to use](#how-to-use)
 - [functions](#functions)
 - [future plans](#future-plans)
 - [credits](#credits)
+
+## How to use
 
 ## functions
 

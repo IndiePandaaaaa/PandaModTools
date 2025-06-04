@@ -12,11 +12,21 @@ namespace PandaModTools
         /// Der Haupteinstiegspunkt für die Anwendung.
         /// </summary>
         [STAThread]
-        static void Main()
+        static void Main(String[] args)
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+          // bash command: 
+          // mcs -out:PandaModTools.exe -r:System.Windows.Forms.dll -r:System.Data.dll -r:System.Drawing.dll Program.cs Form1.cs Form1.Designer.cs && mono PandaModTools.exe
+            Console.WriteLine("--- PandaModTools ---");
+
+            if (args.Length == 0)
+            {
+              Application.EnableVisualStyles();
+              Application.SetCompatibleTextRenderingDefault(false);
+              Application.Run(new Form1());
+            } else {
+              Console.WriteLine("--- DEVELOPER-Mode ---");
+              Console.WriteLine($"--- ARGUMENTS [{args.Length}]: {string.Join(", ", args)}");
+            }
         }
     }
 }
