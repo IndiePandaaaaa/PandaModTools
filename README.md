@@ -1,6 +1,6 @@
 # PandaModTools
 
-PandaModTools is a local running client (based on .NET-FrameWork and Windows Forms) to assist moderators of different services ([twitch](https://twitch.tv/), [Discord](https://discord.com/), ...) with all kinds of helpful automation tools.
+PandaModTools is a local running client (based on Python 3 and Qt 6) to assist moderators of different services ([twitch](https://twitch.tv/), [Discord](https://discord.com/), ...) with all kinds of helpful automation tools.
 
 ## table of contents
 
